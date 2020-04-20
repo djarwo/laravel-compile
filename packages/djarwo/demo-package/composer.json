@@ -1,0 +1,22 @@
+{
+    "name": "djarwo/demo-package",
+    "authors": [
+        {
+            "name": "djarwo",
+            "email": "djarwoprasojo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Djarwo\\DemoPackage\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Djarwo\\DemoPackage\\Providers\\DemoPackageServiceProvider"
+            ]
+        }
+    }
+}

@@ -150,7 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Djarwo\DemoPackage\Providers\DemoPackageServiceProvider::class,
         /*
          * Application Service Providers...
          */
